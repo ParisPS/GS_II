@@ -1,0 +1,45 @@
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .title {
+    color: #2a7f62;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .nav { /* Adicione a classe 'nav' aqui */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .nav a {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
+    text-align: center;
+  }
+  
+  .nav a:hover {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+
+  .signInButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+  }

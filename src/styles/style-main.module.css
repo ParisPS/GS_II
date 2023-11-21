@@ -1,0 +1,76 @@
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .title {
+    text-align: center;
+    color: #2a7f62;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form input,
+  .form textarea {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .form textarea {
+    height: 120px;
+    resize: vertical;
+  }
+  
+  .button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  .inputField,
+  .textAreaField {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  .textAreaField {
+    height: 120px;
+    resize: vertical;
+  }
+  
+  .inputField:focus,
+  .textAreaField:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  .labelField {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    padding: 10px;
+    color-scheme: #4CAF50;
+  }
